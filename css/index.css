@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+.banner{
+    position: relative;
+    width:1180px;
+    height:60px;
+    margin:150px auto;
+    border:1px solid #e6e6e6;
+    background: white;
+}
+
+.banner a{
+    position: absolute;
+    top:-50px;
+    right:0px;
+    width:186px;
+    height: 55px;
+}
+
+.banner a img{
+    width: 100%;
+}
+
+.mask{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mask .container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    background: white;
+    width:360px;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.head{
+    position: relative;
+    border-bottom: 1px solid #eee;
+    width:100%;
+    height: 44px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+
+.head p{
+    line-height: 44px;
+    
+}
+
+.head a{
+    position: absolute;
+    right: 12px;
+    top:12px;
+    color:#ccc;
+}
+
+.cont-body{
+    width: 300px;
+    padding:15px 30px;
+}
+
+.cont-body .inner-body{
+    background:#dbf0fa ;
+    box-shadow: 1px 1px 2px #ddd;
+    padding:15px 0 10px 0;
+    font-size: 12px;
+}
+
+.cont-body .inner-body h2{
+    background: url(../img/ico.png) 0 -120px no-repeat;
+    width: 186px;
+    height: 188px;
+    margin: 0 auto;
+}
+
+.cont-body .inner-body button{
+    background: url(../img/ico.png) 0 0px no-repeat;
+    width: 271px;
+    height: 40px;
+    margin: -45px auto 15px;
+    display: block;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cont-body .inner-body .sign{
+    color:#777;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.cont-body .inner-body .sign::before{
+    width:40px ;
+    height: 7px;
+    background: #ccc;
+    position: absolute;
+    left:14px;
+    top:5px;
+    display: block;
+    content: "";
+}
+
+.cont-body .inner-body .sign::after{
+    width:40px ;
+    height: 7px;
+    background: #ccc;
+    position: absolute;
+    right: 12px;
+    top:5px;
+    display: block;
+    content: "";
+}
+
+.cont-body .inner-body ul{
+    height: 180px;
+    color: #555;
+    overflow: hidden;
+    
+}
+
+.cont-body .inner-body ul li{
+    height: 18px;
+    line-height: 18px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.cont-body .inner-body ul li.takeout{
+    background: url(../img/ico.png) 0 -320px no-repeat;
+    color: #fe5a23;
+    font-weight: 600;
+    height: 19px;
+    line-height: 19px;
+}
+
